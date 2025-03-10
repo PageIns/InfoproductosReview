@@ -1,0 +1,67 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del header */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+}
+
+/* Sección del producto */
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto h2 {
+    color: #333;
+}
+
+/* Características */
+.caracteristicas {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pros y Contras */
+.ventajas-desventajas {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.pros, .contras {
+    width: 45%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón de compra */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
