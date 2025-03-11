@@ -5,71 +5,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opiniones del Curso - Moldes de Silicona</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Opiniones sobre el Curso "Crea tus propios moldes de silicona"</h1>
+        <div class="header-content">
+            <h1>Opiniones sobre el Curso</h1>
+            <h2 class="subtitle">"Crea tus propios moldes de silicona"</h2>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>4.5/5 (87 opiniones)</span>
+            </div>
+        </div>
     </header>
 
+    <nav class="table-of-contents">
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#objetivo">Objetivo</a></li>
+            <li><a href="#autor">Autor</a></li>
+            <li><a href="#pros-contras">Pros y Contras</a></li>
+            <li><a href="#contenido">Contenido</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#precio">Precio</a></li>
+            <li><a href="#opinion-final">Opinión Final</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section id="introduccion">
-            <h2>📌 Introducción</h2>
-            <p>Si te apasionan las manualidades y buscas un negocio rentable, este curso te enseñará a crear moldes de silicona para resina, jabones y más.</p>
+        <div class="cta-floating">
+            <button class="cta-button pulse" onclick="inscribirse()">
+                <i class="fas fa-check-circle"></i> ¡Quiero Inscribirme!
+            </button>
+        </div>
+
+        <section id="introduccion" class="card">
+            <div class="section-icon"><i class="fas fa-info-circle"></i></div>
+            <h2>Introducción</h2>
+            <p>Si te apasionan las manualidades y buscas un negocio rentable, este curso te enseñará a crear moldes de silicona profesionales para resina, jabones, velas y mucho más.</p>
+            <div class="image-container">
+                <img src="/api/placeholder/600/300" alt="Moldes de silicona" class="section-image">
+            </div>
         </section>
 
-        <section id="objetivo">
-            <h2>🎯 ¿Cuál es el objetivo del curso?</h2>
-            <p>Aprenderás desde cero a fabricar moldes artesanales con técnicas profesionales para emprender desde casa.</p>
+        <section id="objetivo" class="card">
+            <div class="section-icon"><i class="fas fa-bullseye"></i></div>
+            <h2>¿Cuál es el objetivo del curso?</h2>
+            <div class="content-columns">
+                <div>
+                    <p>Aprenderás desde cero a fabricar moldes artesanales con técnicas profesionales para emprender desde casa, incluso si nunca has trabajado con silicona antes.</p>
+                    <ul class="benefits-list">
+                        <li><i class="fas fa-check"></i> Domina técnicas profesionales</li>
+                        <li><i class="fas fa-check"></i> Crea un negocio rentable</li>
+                        <li><i class="fas fa-check"></i> Trabaja desde casa</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="/api/placeholder/300/300" alt="Objetivos del curso" class="section-image">
+                </div>
+            </div>
         </section>
 
-        <section id="autor">
-            <h2>👨‍🏫 ¿Quién creó este curso?</h2>
-            <p>Este curso es de <strong>Emprendedoras de la Belleza</strong>, una plataforma especializada en negocios desde casa.</p>
+        <section id="autor" class="card">
+            <div class="section-icon"><i class="fas fa-user-graduate"></i></div>
+            <h2>¿Quién creó este curso?</h2>
+            <div class="instructor-info">
+                <div class="instructor-avatar">
+                    <img src="/api/placeholder/150/150" alt="Instructor" class="rounded-avatar">
+                </div>
+                <div class="instructor-details">
+                    <h3>Emprendedoras de la Belleza</h3>
+                    <p class="instructor-title">Plataforma especializada en negocios desde casa</p>
+                    <p>Con más de 5 años de experiencia enseñando a emprendedores cómo crear negocios rentables en el sector de la belleza y las manualidades.</p>
+                    <div class="instructor-stats">
+                        <div><i class="fas fa-users"></i> 5,000+ Estudiantes</div>
+                        <div><i class="fas fa-award"></i> 12+ Cursos</div>
+                        <div><i class="fas fa-star"></i> 4.8/5 Valoración</div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="pros-contras">
-            <h2>✅ Ventajas y Desventajas</h2>
-            <ul>
-                <li>✔️ Curso 100% online con acceso inmediato</li>
-                <li>✔️ Soporte vía WhatsApp</li>
-                <li>✔️ Métodos probados para vender moldes</li>
-                <li>❌ No es gratuito</li>
-                <li>❌ Se necesita inversión en materiales</li>
-            </ul>
+        <section id="pros-contras" class="card">
+            <div class="section-icon"><i class="fas fa-balance-scale"></i></div>
+            <h2>Ventajas y Desventajas</h2>
+            <div class="pros-cons-container">
+                <div class="pros-box">
+                    <h3><i class="fas fa-thumbs-up"></i> Ventajas</h3>
+                    <ul>
+                        <li>✅ Curso 100% online con acceso inmediato</li>
+                        <li>✅ Soporte vía WhatsApp con respuesta en 24h</li>
+                        <li>✅ Métodos probados para vender moldes</li>
+                        <li>✅ Acceso de por vida al contenido</li>
+                        <li>✅ Actualizaciones gratuitas</li>
+                    </ul>
+                </div>
+                <div class="cons-box">
+                    <h3><i class="fas fa-thumbs-down"></i> Desventajas</h3>
+                    <ul>
+                        <li>❌ No es gratuito</li>
+                        <li>❌ Se necesita inversión en materiales</li>
+                        <li>❌ Requiere tiempo para practicar</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section id="contenido">
-            <h2>📚 Metodología del Curso</h2>
-            <p>Curso online con videos paso a paso. Aprende moldes 2D, 3D y en dos partes.</p>
+        <section id="contenido" class="card">
+            <div class="section-icon"><i class="fas fa-book-open"></i></div>
+            <h2>Metodología del Curso</h2>
+            <div class="course-content">
+                <p>El curso está estructurado en módulos prácticos con videos paso a paso que te llevarán desde lo básico hasta técnicas avanzadas.</p>
+                
+                <div class="modules">
+                    <div class="module">
+                        <div class="module-number">1</div>
+                        <div class="module-content">
+                            <h3>Introducción a los materiales</h3>
+                            <p>Conoce todos los materiales necesarios y dónde conseguirlos al mejor precio.</p>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <div class="module-number">2</div>
+                        <div class="module-content">
+                            <h3>Moldes 2D simples</h3>
+                            <p>Aprende a crear moldes planos perfectos para iniciar.</p>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <div class="module-number">3</div>
+                        <div class="module-content">
+                            <h3>Moldes 3D</h3>
+                            <p>Domina las técnicas para crear moldes tridimensionales.</p>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <div class="module-number">4</div>
+                        <div class="module-content">
+                            <h3>Moldes en dos partes</h3>
+                            <p>Crea moldes profesionales para figuras complejas.</p>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <div class="module-number">5</div>
+                        <div class="module-content">
+                            <h3>Estrategias de venta</h3>
+                            <p>Aprende a comercializar tus creaciones y generar ingresos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="testimonios">
-            <h2>🗣️ Testimonios de Alumnos</h2>
-            <p id="testimonio">Cargando testimonios...</p>
+        <section id="testimonios" class="card">
+            <div class="section-icon"><i class="fas fa-comment-dots"></i></div>
+            <h2>Testimonios de Alumnos</h2>
+            <div class="testimonial-container">
+                <div class="testimonial" id="testimonial-display">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p id="testimonio" class="testimonial-text">Cargando testimonios...</p>
+                    <div class="testimonial-author" id="testimonio-autor"></div>
+                </div>
+                <div class="testimonial-dots" id="testimonial-dots">
+                    <!-- Los puntos indicadores se agregarán mediante JavaScript -->
+                </div>
+            </div>
         </section>
 
-        <section id="precio">
-            <h2>💰 Precio del Curso</h2>
-            <p>Este curso tiene una excelente relación calidad-precio. Haz clic abajo para conocer el precio actualizado.</p>
-            <button onclick="verPrecio()">Ver Precio Oficial</button>
+        <section id="precio" class="card highlight-card">
+            <div class="section-icon"><i class="fas fa-tag"></i></div>
+            <h2>Precio del Curso</h2>
+            <div class="price-container">
+                <p>Este curso tiene una excelente relación calidad-precio con todo lo que incluye:</p>
+                <div class="price-box">
+                    <div class="price-header">Oferta por tiempo limitado</div>
+                    <div class="original-price">Precio normal: <span class="strike">$XX.XX</span></div>
+                    <div class="current-price">Hoy: <span id="precio-actual">Ver Precio</span></div>
+                    <div class="price-guarantee">
+                        <i class="fas fa-shield-alt"></i> Garantía de 30 días
+                    </div>
+                    <button class="cta-button" onclick="verPrecio()">
+                        <i class="fas fa-tag"></i> Ver Precio Oficial
+                    </button>
+                </div>
+                <div class="payment-methods">
+                    <p><i class="fas fa-credit-card"></i> Aceptamos múltiples formas de pago</p>
+                    <div class="payment-icons">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-amex"></i>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="bonos">
-            <h2>🎁 Bonos y Extras</h2>
-            <p>Incluye lista de proveedores, plantillas en PDF y soporte personalizado.</p>
+        <section id="bonos" class="card">
+            <div class="section-icon"><i class="fas fa-gift"></i></div>
+            <h2>Bonos y Extras</h2>
+            <div class="bonuses">
+                <div class="bonus-item">
+                    <div class="bonus-icon"><i class="fas fa-file-pdf"></i></div>
+                    <div class="bonus-details">
+                        <h3>Lista de Proveedores</h3>
+                        <p>Directorio completo de proveedores confiables y económicos.</p>
+                    </div>
+                </div>
+                <div class="bonus-item">
+                    <div class="bonus-icon"><i class="fas fa-palette"></i></div>
+                    <div class="bonus-details">
+                        <h3>Plantillas en PDF</h3>
+                        <p>25 diseños exclusivos para crear moldes únicos.</p>
+                    </div>
+                </div>
+                <div class="bonus-item">
+                    <div class="bonus-icon"><i class="fas fa-headset"></i></div>
+                    <div class="bonus-details">
+                        <h3>Soporte Personalizado</h3>
+                        <p>Acceso a grupo exclusivo de WhatsApp para resolver dudas.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="opinion-final">
-            <h2>⭐ Opinión Final</h2>
-            <p><strong>✔️ SÍ, VALE LA PENA.</strong> Es un curso completo para emprender con moldes de silicona.</p>
-            <button onclick="inscribirse()">🔥 Inscribirse Ahora</button>
+        <section id="opinion-final" class="card">
+            <div class="section-icon"><i class="fas fa-award"></i></div>
+            <h2>Opinión Final</h2>
+            <div class="final-review">
+                <div class="final-rating">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="rating-text">4.5/5</div>
+                </div>
+                <div class="final-verdict">
+                    <p><strong>✔️ SÍ, VALE LA PENA.</strong> Este curso es una inversión completa para quien quiera emprender con moldes de silicona.</p>
+                    <ul class="final-points">
+                        <li><i class="fas fa-check-circle"></i> Contenido de calidad y actualizado</li>
+                        <li><i class="fas fa-check-circle"></i> Excelente soporte</li>
+                        <li><i class="fas fa-check-circle"></i> Buenos bonos adicionales</li>
+                        <li><i class="fas fa-check-circle"></i> Rentable a corto plazo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="final-cta">
+                <button class="cta-button large" onclick="inscribirse()">
+                    <i class="fas fa-fire"></i> ¡Inscríbete Ahora!
+                </button>
+                <p class="limited-offer">¡Oferta por tiempo limitado!</p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Opiniones Curso Moldes de Silicona</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Opiniones Curso Moldes de Silicona</h3>
+                <p>Página de revisión independiente. No somos el productor oficial del curso.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#introduccion">Introducción</a></li>
+                    <li><a href="#precio">Precio</a></li>
+                    <li><a href="#opinion-final">Opinión Final</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-envelope"></i> info@ejemplo.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Opiniones Curso Moldes de Silicona</p>
+            <p>Este sitio puede contener enlaces de afiliados</p>
+        </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
